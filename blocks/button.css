@@ -1,0 +1,17 @@
+.button {
+    color: #fff;
+    text-decoration: none;
+    min-width: 288px;
+    height: 48px;
+    width: 100%;
+    padding: 15px 21px 16px 22px;
+    background-color: #0278FE;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}

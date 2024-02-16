@@ -1,0 +1,52 @@
+.cities {
+}
+
+.cities__item {
+
+}
+
+.cities__header {
+    padding: 0 16px 30px;
+}
+
+.cities__title {
+    font-family: 'Inter Black';
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 0 30px;
+}
+
+.cities__artist {
+    color: #aaa;
+    font-size: 12px;
+    line-height: 14.5px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.cities__artist-name {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 8px 0 0 0;
+}
+
+.cities__image-city {
+    min-width: 320px;
+    width: 100%;
+}
+
+.cities__content {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 8px;
+}
+
+.cities__content-paragraph {
+    margin: 0;
+}
+
+.cities__footer {
+    padding: 0 16px;
+}

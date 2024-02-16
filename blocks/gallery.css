@@ -1,4 +1,19 @@
-.gallery {
-    border: 1px solid red;
-    
+.gallery {    
+    /* display: grid; */
+    padding: 0 16px 62px;
+    /* grid-gap: 12px; */
+    /* box-sizing: border-box; */
+}
+
+.gallery__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.gallery__item {
+    min-width: 288px;
+    width: 100%;
+    /* flex-basis: 288px; */
+    /* flex: 1; */
 }
