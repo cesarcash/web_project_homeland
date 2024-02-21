@@ -1,7 +1,8 @@
-.header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px;
 }
 
 .header__logo {
@@ -27,4 +28,33 @@
   min-width: 320px;
   width: 100%;
   filter: grayscale(100%);
+}
+
+@media screen and (min-width: 768px) {
+  .header__container {
+    padding: 0 24px;
+  }
+  .header__logo {
+    width: 270px;
+    margin-top: 34px;
+  }
+  .header__title {
+    margin: 90px auto 99px;
+    font-size: 96px;
+    line-height: 100px;
+  }
+  .header__text {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 69px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .header {
+    padding: 0 148px;
+  }
+  .header__container {
+    padding: 0;
+  }
 }

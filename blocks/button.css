@@ -1,17 +1,39 @@
 .button {
-    color: #fff;
     text-decoration: none;
-    min-width: 288px;
-    height: 48px;
     width: 100%;
-    padding: 15px 21px 16px 22px;
+    padding: 13px 20px;
     background-color: #0278FE;
     cursor: pointer;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 17px;
+    font-weight: 600;    
     border-radius: 4px;
     display: block;
     text-align: center;
     box-sizing: border-box;
+    color: #fff;
 }
+
+.button_text_small {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.button_text_normal {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.button_size_small {
+    min-width: 288px;
+}
+
+.button_size_normal {
+    max-width: 198px;
+}
+
+.button_align_center {
+    margin: auto;
+}
+
+/* .button_hover_effect:hover, .cover__filter {
+    background-color: rgba(0,0,0,.7);
+} */
