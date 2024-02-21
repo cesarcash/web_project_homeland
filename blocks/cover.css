@@ -6,15 +6,20 @@
 .cover__container {
     position: relative;
     line-height: 0;
+    text-align: center;
 }
 
 .cover__image {
     min-width: 320px;
     width: 100%;
     min-height: 254px;
-    filter: opacity(30%);
-    aspect-ratio: 1;
+    filter: opacity(70%);
     object-fit: cover;
+    transition: .3s ease-in all;
+}
+
+.cover__image:hover {
+    filter: opacity(30%);
 }
 
 .cover__data {
@@ -53,5 +58,22 @@
         font-size: 18px;
         line-height: 22px;
         margin: 0 0 32px 0;
+    }
+
+    .cover__image {
+        min-width: 768px;
+        max-height: 746px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .cover {
+        padding: 0 48px;
+        margin-top: 12px;
+    }
+
+    .cover__image {
+        max-width: 1184px;
+        max-height: 740px;
     }
 }

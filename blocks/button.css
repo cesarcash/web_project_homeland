@@ -15,11 +15,21 @@
 .button_text_small {
     font-size: 14px;
     line-height: 17px;
+    transition: .3s ease-in all;
+}
+
+.button_text_small:hover {
+    background-color: #0063D2;
 }
 
 .button_text_normal {
     font-size: 18px;
     line-height: 22px;
+    transition: .3s ease-in all;
+}
+
+.button_text_normal:hover {
+    background-color: #0063D2;
 }
 
 .button_size_small {
@@ -27,13 +37,21 @@
 }
 
 .button_size_normal {
-    max-width: 198px;
+    min-width: 198px;
 }
 
 .button_align_center {
     margin: auto;
 }
 
-/* .button_hover_effect:hover, .cover__filter {
-    background-color: rgba(0,0,0,.7);
-} */
+@media screen and (min-width: 768px){
+
+    .button_size_small {
+        max-width: 355px;
+    }
+    
+    .button_size_normal {
+        min-width: 198px;
+    }
+
+}

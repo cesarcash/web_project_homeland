@@ -40,6 +40,7 @@
 .cities__image-city {
     min-width: 320px;
     width: 100%;
+    aspect-ratio: 1;
 }
 
 .cities__content {
@@ -98,7 +99,6 @@
 
     .cities__image-city {
         min-width: 340px;
-        aspect-ratio: 1;
     }
 
     .cities__content {
@@ -109,13 +109,35 @@
 
     .cities__button {
         grid-area: button;
-        padding: 0;
+        padding: 48px 0 0 0;
     }
 
 }
 
 @media screen and (min-width: 1280px){
     .cities__item {
-        
+        margin-bottom: 80px;
+        padding: 0 148px;
+        grid-column-gap: 40px;
     }
+    .cities__header {
+        gap: 40px;
+    }
+    .cities__title {
+        font-size: 72px;
+        line-height: 76px;
+    }
+    .cities__image-city {
+        min-width: 460px;
+    }
+    .cities__content {
+        gap: 25px;
+    }
+    .cities__content-paragraph {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    /* .cities__button {
+        padding-top: 48px;
+    } */
 }

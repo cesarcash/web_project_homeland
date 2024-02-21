@@ -14,3 +14,10 @@
     }
 
 }
+
+@media screen and (min-width: 1280px){
+    .footer__copyright {
+        padding: 92px 0 24px;
+        line-height: 16px;
+    }
+}
