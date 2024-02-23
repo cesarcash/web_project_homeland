@@ -24,6 +24,8 @@
 }
 
 .cities__artist-name {
+    display: flex;
+    flex-direction: column;
     font-size: 18px;
     line-height: 22px;
     margin: 8px 0 30px 0;
@@ -53,10 +55,6 @@
 .cities__button {
     padding: 8px 16px 0px;
 
-}
-
-.cities__artist-name--break {
-    display: block;
 }
 
 @media screen and (min-width: 768px){
@@ -90,8 +88,6 @@
     }
 
     .cities__artist-name {
-        display: flex;
-        flex-direction: column;
         margin-bottom: 48px;
     }
 
