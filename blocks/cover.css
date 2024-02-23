@@ -18,7 +18,7 @@
     transition: .3s ease-in all;
 }
 
-.cover__image:hover {
+.cover__container:hover .cover__image {
     filter: opacity(30%);
 }
 

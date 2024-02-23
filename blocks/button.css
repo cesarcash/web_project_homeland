@@ -33,7 +33,7 @@
 }
 
 .button_size_small {
-    min-width: 288px;
+    max-width: 288px;
 }
 
 .button_size_normal {
