@@ -1,9 +1,5 @@
-.cities {
-}
-
 .cities__item {
     margin-bottom: 16px;
-    /* margin-bottom: 36px; */
 }
 
 .cities__header {
@@ -137,7 +133,5 @@
         font-size: 18px;
         line-height: 29px;
     }
-    /* .cities__button {
-        padding-top: 48px;
-    } */
+    
 }
