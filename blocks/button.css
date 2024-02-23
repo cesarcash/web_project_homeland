@@ -37,7 +37,7 @@
 }
 
 .button_size_normal {
-    min-width: 198px;
+    max-width: 198px;
 }
 
 .button_align_center {
