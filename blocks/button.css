@@ -1,7 +1,6 @@
 .button {
     text-decoration: none;
-    width: 100%;
-    padding: 13px 20px;
+    padding: 13px 0px;
     background-color: #0278FE;
     cursor: pointer;
     font-weight: 600;
@@ -12,35 +11,22 @@
     color: #fff;
 }
 
-.button_text_small {
+.button:hover {
+    background-color: #0063D2;
+}
+
+.button_size_small {
+    width: 100%;
     font-size: 14px;
     line-height: 17px;
     transition: .3s ease-in all;
 }
 
-.button_text_small:hover {
-    background-color: #0063D2;
-}
-
-.button_text_normal {
+.button_size_normal {
+    max-width: 198px;
     font-size: 18px;
     line-height: 22px;
     transition: .3s ease-in all;
-}
-
-.button_text_normal:hover {
-    background-color: #0063D2;
-}
-
-.button_size_small {
-    min-width: 288px;
-}
-
-.button_size_normal {
-    max-width: 198px;
-}
-
-.button_align_center {
     margin: auto;
 }
 
@@ -48,10 +34,6 @@
 
     .button_size_small {
         max-width: 355px;
-    }
-    
-    .button_size_normal {
-        min-width: 198px;
     }
 
 }

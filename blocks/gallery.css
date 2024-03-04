@@ -4,13 +4,13 @@
 
 .gallery__container {
     display: grid;
-    grid-template-columns: minmax(288px, 1fr);
+    grid-template-columns: minmax(100%, 1fr);
     grid-gap: 12px;
     justify-content: center;
 }
 
 .gallery__item {
-    width: 100%; 
+    width: 100%;     
 }
 
 @media screen and (min-width: 768px){

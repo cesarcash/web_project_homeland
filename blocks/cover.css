@@ -10,7 +10,6 @@
 }
 
 .cover__image {
-    min-width: 320px;
     width: 100%;
     min-height: 254px;
     filter: opacity(70%);
@@ -29,7 +28,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 280px;
 }
 
 .cover__title {
